@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg styck-top p-4" id="cabecalho"> 
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title" > Oboticario
+
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao"> 
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide text-center" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2023_03_02_19_13_27_0/631f4678-ee7d-4ee1-b7eb-4f162e3d3e9e-billboard-2440x750-23c04-intensepop-desk.jpg" alt="Foto do espaço interno">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2023_03_06_19_19_07_7/f9beb6df-c6c7-4ca6-98ec-24abd5270e6a-billboard-2440x750-23c04-matchscience-crescim-desk.jpg" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2023_03_06_19_51_15_5/194a4f1c-61b9-4387-8b83-8a2697fcbafc-billboard-2440x750-23c04-lily20off-desk.jpg" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="w-100 " src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2022_05_11_18_14_02_2/98fcd7e1-7452-49e9-92a4-aa8da636eb1b-1017x750-2022-c07-clique-retire-vitrine-desk.jpg">
+                        </div>
+                        <div id="teste" class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored"> a Oboticario</span> </h2>
+                            <p> 
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque quia aut cumque eos asperiores qui eius voluptatibus ratione at et. Ab inventore placeat debitis. Et maxime exercitationem ullam commodi minus. 
+                            </p>
+                            <h3 class="section-title">Os melhores <span class="text-colored"> produtos do mercado</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima rem quidem provident voluptate, repudiandae esse voluptatum possimus unde, pariatur voluptatibus itaque! Harum inventore maiores molestias molestiae, placeat ex! Ut, quidem.
+                            </p>
+                            <ul class="teste">
+                                <li>
+                                    <img class="col-md-2" src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_18_00_27_1/f9f6adde-599f-4c72-8944-31aa5763dcb4-cards-800x800-23c04-consumidor-marcas-02.png" alt="">
+                                </li>
+                                <li>
+                                    <img class="col-md-2" src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_17_59_32_5/89731caa-3fab-4b93-ac2d-65ad2ccbba06-cards-800x800-23c04-consumidor-marcas-01.png" alt="">
+                                </li>
+                                <li>
+                                    <img class="col-md-2" src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_18_01_22_1/753de171-5447-4543-a4b1-cfde0cb2b078-cards-800x800-23c04-consumidor-marcas-03.png" alt="">
+                                </li>
+                                <li>
+                                    <img class="col-md-2" src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_18_04_43_4/f01a7515-61e9-4ad1-82d3-76efbe5d11bf-cards-800x800-23c04-consumidor-marcas-07.png" alt="">
+                                </li>
+                                <li>
+                                    <img class="col-md-2" src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_18_02_56_8/736d0c00-8ad7-4fe5-ac1e-b8c519b5d28f-cards-800x800-23c04-consumidor-marcas-05.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored"> as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_11_49_17_2/a5b82b02-1ebb-48fd-97dc-89d2a9aad57e-cards-1-468x710-23c04-malbecx.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Anivesários</h3>
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur laboriosam sapiente labore cupiditate voluptates perferendis, eius totam tempora magnam placeat nisi sunt molestias nam excepturi ducimus, optio, ea ipsam!
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_11_52_29_1/6b726cdd-af41-4f5d-b773-e8da7f5d8a55-cards-4-468x710-23c04-malbecx.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Festas</h3>
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur laboriosam sapiente labore cupiditate voluptates perferendis, eius totam tempora magnam placeat nisi sunt molestias nam excepturi ducimus, optio, ea ipsam!
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_11_52_58_3/470dd4eb-a5be-46e1-b890-1bb278354ab8-cards-5-468x710-23c04-malbecx.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Casa</h3>
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur laboriosam sapiente labore cupiditate voluptates perferendis, eius totam tempora magnam placeat nisi sunt molestias nam excepturi ducimus, optio, ea ipsam!
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_50/v1/banner/2023_03_02_11_51_13_0/a9681ccf-03dc-4ee0-9be7-8c8e324fdb56-cards-2-468x710-23c04-malbecx.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Casamentos</h3>
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur laboriosam sapiente labore cupiditate voluptates perferendis, eius totam tempora magnam placeat nisi sunt molestias nam excepturi ducimus, optio, ea ipsam!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Perfumes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcool" class="fw-bold text-start nav-link text-colored">Desodorantes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Combos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Cremes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Makes</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="bebidas-sem-alcool">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B30192/teste_malbec_2.gif" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Malbec</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                            </p>
+                                        </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B30192/teste_malbec_2.gif" alt="">
+                                                <h5 class="text-colored fw-bold mt-2">Malbec</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B30192/teste_malbec_2.gif" alt="">
+                                                <h5 class="text-colored fw-bold mt-2">Malbec</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B30192/teste_malbec_2.gif" alt="">
+                                                <h5 class="text-colored fw-bold mt-2">Malbec</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B30192/teste_malbec_2.gif" alt="">
+                                                <h5 class="text-colored fw-bold mt-2">Malbec</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B30192/teste_malbec_2.gif" alt="">
+                                                <h5 class="text-colored fw-bold mt-2">Malbec</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                                </p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="bebidas-alcool">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/product/B73015/f3ad238c-7a9c-4d59-8a55-0ef3bf619ae8-body-splash-cuide-se-bem-castanhita-200ml.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Body Split</h5>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                            </p>
+                                        </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/product/B73015/f3ad238c-7a9c-4d59-8a55-0ef3bf619ae8-body-splash-cuide-se-bem-castanhita-200ml.png" alt="">
+                                                <h5 class="text-colored fw-bold mt-2">Body Split</h5>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                                </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2022030403/B2022030403-Combo-Malbec-X_Colonia_Body-Spray_Necessaire.jpg" alt="Entradas">
+                                        <h5 class="text-colored fw-bold mt-2">Kit Malbec</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2022030403/B2022030403-Combo-Malbec-X_Colonia_Body-Spray_Necessaire.jpg" alt="Kit Malbec">
+                                        <h5 class="text-colored fw-bold mt-2">Kit Malbec</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2022030403/B2022030403-Combo-Malbec-X_Colonia_Body-Spray_Necessaire.jpg" alt="Kit Malbec">
+                                        <h5 class="text-colored fw-bold mt-2">Kit Malbec</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2022030403/B2022030403-Combo-Malbec-X_Colonia_Body-Spray_Necessaire.jpg" alt="Kit Malbec">
+                                        <h5 class="text-colored fw-bold mt-2">Kit Malbec</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2022030403/B2022030403-Combo-Malbec-X_Colonia_Body-Spray_Necessaire.jpg" alt="Kit Malbec">
+                                        <h5 class="text-colored fw-bold mt-2">Kit Malbec</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2022030403/B2022030403-Combo-Malbec-X_Colonia_Body-Spray_Necessaire.jpg" alt="Kit Malbec">
+                                        <h5 class="text-colored fw-bold mt-2">Kit Malbec</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                        </p>
+                                    </div>
+            
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="pratos-principais">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B77138/CAF%C3%89.JPG" alt="Creme">
+                                    <h5 class="text-colored fw-bold mt-2">Creme</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B77138/CAF%C3%89.JPG" alt="Creme">
+                                    <h5 class="text-colored fw-bold mt-2">Creme</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                    </p>
+                                </div> 
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B77138/CAF%C3%89.JPG" alt="Creme">
+                                    <h5 class="text-colored fw-bold mt-2">Creme</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B77138/CAF%C3%89.JPG" alt="Salmao">
+                                    <h5 class="text-colored fw-bold mt-2">Creme</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                    </p>
+                                </div> 
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B77138/CAF%C3%89.JPG" alt="Creme">
+                                    <h5 class="text-colored fw-bold mt-2">Creme</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B77138/CAF%C3%89.JPG" alt="Creme">
+                                    <h5 class="text-colored fw-bold mt-2">Creme</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                    </p>
+                                </div> 
+                                
+        
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="sobremesas">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2021060915/kit-15.png" alt="Bolo">
+                                <h5 class="text-colored fw-bold mt-2">Batom</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2021060915/kit-15.png" alt="Batom">
+                                <h5 class="text-colored fw-bold mt-2">Batom</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                </p>
+                            </div> 
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2021060915/kit-15.png" alt="Bolo">
+                                <h5 class="text-colored fw-bold mt-2">Batom</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2021060915/kit-15.png" alt="cupcake">
+                                <h5 class="text-colored fw-bold mt-2">Batom</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                </p>
+                            </div> 
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2021060915/kit-15.png" alt="Bolo">
+                                <h5 class="text-colored fw-bold mt-2">Batom</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_210,h_210/v1/imagens/products/B2021060915/kit-15.png" alt="Batom">
+                                <h5 class="text-colored fw-bold mt-2">Batom</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur et! Voluptates amet consequatur eligendi.
+                                </p>
+                            </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">
+                    Fale <span class="text-colored">Conosco</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem </label>
+                            <textarea class="form-control" required id="mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5"> 
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais</h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço</h3>
+                        <p> Rua oboticario n-45, Bairro Bootsstrap - Mato Grosso - MT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
